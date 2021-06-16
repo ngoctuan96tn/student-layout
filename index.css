@@ -411,4 +411,11 @@
     color: #fff;
     font-weight: bold;
   }
+
+  /* FOOTER*/
+  footer {
+    background: #242C3C;
+    color: #FFFFFF;
+    font-family: Averta Std;
+  }
   
