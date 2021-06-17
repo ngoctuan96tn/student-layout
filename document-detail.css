@@ -39,9 +39,16 @@ body {
 .avatar-author {
     border-radius: 50%;
 }
-
+.label-category {
+    width: 150px;
+    height: 30px;
+    background-color: #b3b8b9;
+    border-radius: 5px;
+    text-align: center;
+}
 /* FOOTER*/
 footer {
+position: relative;
 background: #242C3C;
 color: #FFFFFF;
 font-family: Averta Std;
