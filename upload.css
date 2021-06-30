@@ -62,6 +62,19 @@ body {
     margin-top: 1em;
 }
 
+.text-bonus {
+    background: #F2F2F2;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.upload-form {
+    margin-top: 2em;
+}
+.text-dropdown {
+    text-transform: none;
+}
+
 /* FOOTER*/
 footer {
 position: relative;

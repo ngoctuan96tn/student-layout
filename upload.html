@@ -106,8 +106,142 @@
                         <p> <i class="bi bi-check-circle-fill" style="color: orange;"></i> Cần tài liệu cần tránh vi phạm bản quyền hoặc nội dung bậy bạ, các tài liệu vi phạm sẽ bị xóa bỏ hoàn toàn</p>
                         <button type="button" class="btn btn-success" style="margin-left: 40%; border-radius: 10px;">Tiếp theo</button>
                     </div>
-                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">xác nhận</div>
-                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">thông báo</div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+                        <!-- UPLOAD FORM -->
+                        <div>
+                            <div class="text-bonus"><img src="./images/bonus-icon.png"/> Tặng ngay 1 Xu cho mỗi upload được phê duyệt <img src="./images/bonus-icon.png"/></div>
+                            <form class="upload-form">
+                                <div class="row">
+                                    <div class="mb-3 col-6">
+                                        <label for="formFile" class="form-label">Ảnh đại diện <sup><i class="bi bi-brightness-high-fill" style="color: #00D7AA;"></i></sup></label>
+                                        <input class="form-control" type="file" id="formFile">
+                                    </div>
+                                    <div class="col-6">
+                                        <p>Ảnh phù hợp sẽ giúp tài liệu có nhiều lượt tải xuống</p>
+                                        <p>Dung lượng tối đa 2MB</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="mb-3 col-6">
+                                        <label for="docName" class="form-label">Tên tài liệu <sup><i class="bi bi-brightness-high-fill" style="color: #00D7AA;"></i></sup></label>
+                                        <input class="form-control" type="text" id="docName">
+                                    </div>
+                                    <div class="col-6">
+                                        <label for="docName" class="form-label">Loại tài liệu <sup><i class="bi bi-brightness-high-fill" style="color: #00D7AA;"></i></sup></label>
+                                        <select class="form-select" aria-label="Default select example" id="docName">
+                                            <option selected>Chọn loại tài liệu</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="mb-3 col-6">
+                                        <label for="docName" class="form-label">Chuyên ngành <sup><i class="bi bi-brightness-high-fill" style="color: #00D7AA;"></i></sup></label>
+                                        <select class="form-select" aria-label="Default select example" id="docName">
+                                            <option selected>Chọn chuyên ngành</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-6">
+                                        <label for="docName" class="form-label">Chuyên ngành con <sup><i class="bi bi-brightness-high-fill" style="color: #00D7AA;"></i></sup></label>
+                                        <select class="form-select" aria-label="Default select example" id="docName">
+                                            <option selected>Chọn chuyên ngành con</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="mb-3 col-6">
+                                        <label for="docName" class="form-label">Ngôn ngữ <sup><i class="bi bi-brightness-high-fill" style="color: #00D7AA;"></i></sup></label>
+                                        <select class="form-select" aria-label="Default select example" id="docName">
+                                            <option selected>Chọn ngôn ngữ</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-6">
+                                        <label for="docName" class="form-label">Trường học <sup><i class="bi bi-brightness-high-fill" style="color: #00D7AA;"></i></sup></label>
+                                        <select class="form-select" aria-label="Default select example" id="docName">
+                                            <option selected>Chọn trường học</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="mb-3 col-6">
+                                        <label for="docName" class="form-label">Phí tải</label>
+                                        <input class="form-control" type="text" id="docName">
+                                    </div>
+                                    <div class="col-6">
+                                        <label class="form-label">Trang hiển thị</label>
+                                        <div class="row">
+                                            <div class="col-5" id="docName">
+                                                <input class="form-control" type="text">
+                                            </div>
+                                            <div class="col-2">
+                                                đến
+                                            </div>
+                                            <div class="col-5">
+                                                <input class="form-control" type="text" >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="mb-3 col-6">
+                                        <label for="formFile" class="form-label">File demo <sup><i class="bi bi-brightness-high-fill" style="color: #00D7AA;"></i></sup></label>
+                                        <input class="form-control" type="file" id="formFile">
+                                    </div>
+                                    <div class="col-6">
+                                        <label for="formFile" class="form-label">Chọn tài liệu <sup><i class="bi bi-brightness-high-fill" style="color: #00D7AA;"></i></sup></label>
+                                        <input class="form-control" type="file" id="formFile">
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="mb-3 col-6">
+                                        <label for="exampleFormControlTextarea1" class="form-label">Mô tả chi tiết</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                        
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="form-check form-switch">
+                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                                            <label class="form-check-label" for="flexSwitchCheckDefault">Tài liệu vip <img src="./images/Vector.png"/> </label>
+                                          </div>
+                                    </div>
+                                </div>
+
+                                <p> <i class="bi bi-check-circle-fill" style="color: orange;"></i> Điền các thông tin mà chung tôi yêu cầu các trường có (<sup><i class="bi bi-brightness-high-fill" style="color: #00D7AA;"></i></sup>) là bắt buộc</p>
+                                <p> <i class="bi bi-check-circle-fill" style="color: orange;"></i> Bạn nên điền và chọn đúng thông tin tài liệu của bạn được duyệt và mọi người biết đến</p>
+                                <p> <i class="bi bi-check-circle-fill" style="color: orange;"></i> File tài luệ hoặc demo(nếu có) có dung lượng tối đa lên tới 5GB</p>
+                                <div class="row">
+                                    <div class="col-md-4 offset-md-5">
+                                        <button type="button" class="btn btn-success">Tải lên ngay</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- UPLOAD FORM -->
+
+                    </div>
+                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                        <p> <i class="bi bi-check-circle-fill" style="color: orange;"></i> Ban quản lý của website sẽ xác nhận thông tin tài liệu của bạn trước khi chia sẻ với mọi người</p>
+                        <p> <i class="bi bi-check-circle-fill" style="color: orange;"></i> Cần tài liệu cần tránh vi phạm bản quyền hoặc nội dung bậy bạ, các tài liệu vi phạm sẽ bị xóa bỏ hoàn toàn</p>
+                        <button type="button" class="btn btn-success" style="margin-left: 40%; border-radius: 10px;">Tiếp theo</button>
+                    </div>
                 </div>
             </div>
         </div>
